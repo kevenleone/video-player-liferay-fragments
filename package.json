@@ -1,5 +1,5 @@
 {
-    "description": "Video Player Liferay Fragments",
+    "description": "Video Player for Liferay Fragments",
     "devDependencies": {
         "@biomejs/biome": "^1.9.4",
         "@types/bun": "latest"
@@ -15,5 +15,5 @@
         "watcher": "bun run scripts/watcher.ts"
     },
     "type": "module",
-    "version": "1.0.0"
+    "version": "1.0.1"
 }
