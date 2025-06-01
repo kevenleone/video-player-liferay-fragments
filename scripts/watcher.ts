@@ -1,6 +1,6 @@
 import { spawn } from "bun";
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
 
 const watchFolder = path.join(__dirname, "..", "video-player-fragments-set");
 
