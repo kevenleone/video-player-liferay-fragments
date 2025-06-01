@@ -18,14 +18,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20'
+
       - name: Install dependencies
         run: npm install
       - name: Build fragments
-        run: bun run build
+        run: npm run build
       - name: Get version from package.json
         id: get_version
         run: |
-          VERSION=$(node -p "require('./package.json').ve   rsion")
+          VERSION=$(node -p "require('./package.json').version")
           echo "version=$VERSION" >> $GITHUB_OUTPUT
       - name: Create Release
         uses: softprops/action-gh-release@v2
