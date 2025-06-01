@@ -11,8 +11,9 @@
     },
     "scripts": {
         "build": "./scripts/deploy.sh",
+        "release": "./scripts/release.sh",
         "watcher": "bun run scripts/watcher.ts"
     },
     "type": "module",
-    "version": "1.0.1"
+    "version": "1.0.0"
 }

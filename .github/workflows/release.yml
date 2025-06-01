@@ -19,14 +19,12 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm install
-      - name: Build fragments
-        run: npm run build
+      - name: Release fragments
+        run: ./scripts/release.sh
       - name: Get version from package.json
         id: get_version
         run: |
-          VERSION=$(node -p "require('./package.json').version")
+          VERSION=$(grep '"version"' package.json | head -1 | sed -E 's/.*"version": "([^"]+)".*/\1/')
           echo "version=$VERSION" >> $GITHUB_OUTPUT
       - name: Create Release
         uses: softprops/action-gh-release@v2
