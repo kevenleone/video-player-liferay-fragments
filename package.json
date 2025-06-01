@@ -15,5 +15,5 @@
         "watcher": "bun run scripts/watcher.ts"
     },
     "type": "module",
-    "version": "1.0.1"
+    "version": "1.0.0"
 }
