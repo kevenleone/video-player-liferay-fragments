@@ -1,16 +1,18 @@
 {
-    "name": "video-player-liferay-fragments",
-    "module": "index.ts",
-    "type": "module",
+    "description": "Video Player Liferay Fragments",
     "devDependencies": {
         "@biomejs/biome": "^1.9.4",
         "@types/bun": "latest"
     },
+    "module": "index.ts",
+    "name": "video-player-liferay-fragments",
     "peerDependencies": {
         "typescript": "^5.0.0"
     },
     "scripts": {
         "build": "./scripts/deploy.sh",
         "watcher": "bun run scripts/watcher.ts"
-    }
+    },
+    "type": "module",
+    "version": "1.0.0"
 }
