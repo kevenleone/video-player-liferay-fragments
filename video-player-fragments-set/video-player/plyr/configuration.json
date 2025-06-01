@@ -1,0 +1,34 @@
+{
+    "fieldSets": [
+        {
+            "fields": [
+                {
+                    "defaultValue": false,
+                    "label": "Autoplay",
+                    "name": "autoplay",
+                    "type": "checkbox"
+                },
+                {
+                    "defaultValue": true,
+                    "label": "Loop Video",
+                    "name": "loop",
+                    "type": "checkbox"
+                },
+                {
+                    "defaultValue": false,
+                    "label": "Muted",
+                    "name": "muted",
+                    "type": "checkbox"
+                },
+                {
+                    "defaultValue": "https://vimeo.com/29912899",
+                    "description": "Supported video providers are: Youtube, Vimeo",
+                    "label": "Video URL",
+                    "name": "videoURL",
+                    "type": "text"
+                }
+            ],
+            "label": "Video Settings"
+        }
+    ]
+}
