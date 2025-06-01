@@ -1,0 +1,54 @@
+{
+    "fieldSets": [
+        {
+            "fields": [
+                {
+                    "defaultValue": "vgra6n0r88",
+                    "name": "wistiaVideoId",
+                    "type": "text",
+                    "label": "Wistia Video ID"
+                },
+                {
+                    "defaultValue": false,
+                    "label": "Autoplay",
+                    "name": "autoplay",
+                    "type": "checkbox"
+                },
+                {
+                    "defaultValue": false,
+                    "description": "This property is only valid is autoplay is false",
+                    "label": "Play Button",
+                    "name": "playButton",
+                    "type": "checkbox"
+                },
+                {
+                    "defaultValue": false,
+                    "label": "Muted",
+                    "name": "muted",
+                    "type": "checkbox"
+                },
+                {
+                    "name": "enableCustomColor",
+                    "label": "Enable Custom Player Color",
+                    "type": "checkbox",
+                    "description": "The Player Color (Picker) is only valid if this property is set to true",
+                    "defaultValue": false
+                },
+                {
+                    "defaultValue": true,
+                    "label": "Loop Video",
+                    "name": "loop",
+                    "type": "checkbox"
+                },
+                {
+                    "name": "playerColor",
+                    "label": "Wistia Player Color",
+                    "description": "Player Control Color",
+                    "type": "colorPicker",
+                    "defaultValue": "#111234"
+                }
+            ],
+            "label": "Wistia Settings"
+        }
+    ]
+}
