@@ -1,6 +1,6 @@
-# Video Player Liferay Fragment Set
+# Player X Fragment Set
 
-This repository provides a set of Liferay Fragments for embedding customizable video players in your Liferay site. The set currently includes two player types: **Plyr** and **Wistia**.
+This repository provides a set of Liferay Fragments for embedding customizable Player Xs in your Liferay site. The set currently includes two player types: **Plyr** and **Wistia**.
 
 ## Features
 - Easy integration with Liferay Fragment system
@@ -11,7 +11,7 @@ This repository provides a set of Liferay Fragments for embedding customizable v
 ## Player Fragments & Configuration
 
 ### Plyr Player
-![Plyr Thumbnail](video-player-fragments-set/video-player/plyr/thumbnail.jpeg)
+![Plyr Thumbnail](player-x-fragments-set/player-x/plyr/thumbnail.jpeg)
 **Settings:**
 - **Autoplay** (`checkbox`): Start video automatically (default: false)
 - **Loop Video** (`checkbox`): Repeat video playback (default: true)
@@ -19,7 +19,7 @@ This repository provides a set of Liferay Fragments for embedding customizable v
 - **Video URL** (`text`): URL to the video (supports YouTube, Vimeo; default: https://vimeo.com/29912899)
 
 ### Wistia Player
-![Wistia Thumbnail](video-player-fragments-set/video-player/wistia/thumbnail.jpeg)
+![Wistia Thumbnail](player-x-fragments-set/player-x/wistia/thumbnail.jpeg)
 **Settings:**
 - **Wistia Video ID** (`text`): The Wistia video identifier (default: vgra6n0r88)
 - **Autoplay** (`checkbox`): Start video automatically (default: false)
@@ -48,7 +48,7 @@ The Wistia fragment integrates with Liferay's event system for advanced interact
 
 ## Usage
 1. Import the fragment to your Liferay instance.
-2. Add the desired video player fragment to your page.
+2. Add the desired Player X fragment to your page.
 3. Configure the settings in the fragment sidebar to match your requirements.
 
 ---
