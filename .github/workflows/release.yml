@@ -31,6 +31,6 @@ jobs:
         with:
           tag_name: v${{ steps.get_version.outputs.version }}
           name: Release v${{ steps.get_version.outputs.version }}
-          files: build/video-player-fragments-set.zip
+          files: build/player-x-fragments-set.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
